@@ -13,6 +13,7 @@ body {
     
 header {
     width: 980px;
+    height: 100px;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 0px;
@@ -20,7 +21,7 @@ header {
 }
 
 h1 {
-    background:rgb(241, 241, 241);
+    background: #ffffff;
     color: black;
     padding-bottom: 0px;
     padding-top: 30px;
@@ -31,7 +32,7 @@ h1 {
 }
 
 h2 {
-    background: white;
+    background:rgb(241, 241, 241);
     text-decoration: none;
     padding-top: 0px;
     padding-right: 70px;
