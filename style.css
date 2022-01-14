@@ -129,10 +129,10 @@ ul a:hover {
     width: 120px;
     padding: 10px;
     background: #ffffff;
-    float: left;
+    float: right;
     margin-top: 20px;
     padding-left: 20px;
-    margin-right: 20px;
+    margin-right: 0px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
@@ -154,6 +154,7 @@ aside {
     padding-bottom: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-right: 0px;
 }
 
 #sideimage {
@@ -207,12 +208,11 @@ p {
 
 #articles {
     background: #ffffff;
-    width: 81%;
-    border-top-right-radius: 20px;
+    width: 80%;
     margin-top: 190px;
     margin-bottom: 20px;
     padding: 10px;
-    float: right;
+    float: left;
 }
 
 article {
