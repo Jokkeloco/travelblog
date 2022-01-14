@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #204051;
+    background: #111f27;
     font-family: sans-serif;
     margin: 0px auto;
     max-width: 980px;
@@ -21,10 +21,10 @@ header {
 }
 
 h1 {
-    background: #84A9AC;
-    color: white;
+    background: #ffffff;
+    color: black;
     padding-bottom: 0px;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-right: 70px;
     padding-left: 20px;
     margin-bottom: 0px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    background: #ffffff;
+    background:rgb(241, 241, 241);
     text-decoration: none;
     padding-top: 0px;
     padding-right: 70px;
@@ -41,18 +41,17 @@ h2 {
     margin-top: 0px;
     font-size: 70px;
     font-weight:900;
-
-
 }
 
 h3 {
-    color: white;
-    background: #3B6978;
+    color: rgb(0, 0, 0);
+    background:rgb(241, 241, 241);
     margin-left: 10px;
     margin-right: 10px;
     padding: 5px;
     margin-top: 10px;
     font-size: 16px;
+    font-weight:100;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -71,7 +70,7 @@ h4 {
 
 h5 {
     margin-top: 0px;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-right: 10px;
     color: #3B6978;
     font-size: 10px;
@@ -81,13 +80,14 @@ h5 {
 }
 
 h6 {
-    color: white;
-    background: #3B6978;
+    color: rgb(0, 0, 0);
+    background:rgb(241, 241, 241);
     margin-left: 0px;
     margin-right: 10px;
     padding: 5px;
     margin-top: 10px;
     font-size: 16px;
+    font-weight:100;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
@@ -99,7 +99,7 @@ li {
 }
 
 ul {
-    background: #3B6978;
+    background: #204051;
     margin-top: 0px;
     padding: 10px;
     padding-left: 20px;
@@ -115,7 +115,7 @@ ul a {
 
 ul a:hover {
     
-    color: #ceebf5;
+    color: #889aa0;
 }
 
 #menu {
@@ -126,20 +126,19 @@ ul a:hover {
 }
 
 #sidebar {
-    width: 160px;
+    width: 120px;
     padding: 10px;
     background: #ffffff;
     float: left;
     margin-top: 20px;
     padding-left: 20px;
     margin-right: 20px;
-    position: fixed;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
 #videobar {
-    width: 160px;
+    width: 120px;
     padding: 10px;
     background: #ffffff;
     float: left;
@@ -155,7 +154,6 @@ aside {
     padding-bottom: 0px;
     margin-top: 20px;
     margin-bottom: 20px;
-
 }
 
 #sideimage {
@@ -185,7 +183,6 @@ aside {
 
 #side-youtube {
     margin-top: 20px;
-
 }
 
 #photos {
@@ -210,9 +207,9 @@ p {
 
 #articles {
     background: #ffffff;
-    width: 76%;
+    width: 81%;
     border-top-right-radius: 20px;
-    margin-top: 230px;
+    margin-top: 190px;
     margin-bottom: 20px;
     padding: 10px;
     float: right;
